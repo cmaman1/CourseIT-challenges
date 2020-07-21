@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="http://tuservidorsito.com/nuevocontacto">
+      <label for="nombre">Nombre</label>
+      <br />
+      <input type="text" name="nombre" id="nombre" />
+      <br />
+      <br />
+      <label for="apellido">Apellido</label>
+      <br />
+      <input type="text" name="apellido" id="apellido" />
+      <br />
+      <br />
+      <label for="edad">Edad</label>
+      <br />
+      <input type="number" name="edad" id="edad" />
+      <br />
+      <br />
+      <label for="nacionalidad">Nacionalidad</label>
+      <br />
+      <select name="nacionalidad" id="nacionalidad">
+        <option value="ARG">Argentina</option>
+        <option value="UY">Uruguay</option>
+        <option value="CH">Chile</option>
+      </select>
+      <br />
+      <br />
+      <label
+        >Tecnologia
+        <br />
+        <input type="checkbox" name="frontend" value="frontend" />
+        <label for="frontend">Frontend</label>
+        <br />
+        <input type="checkbox" name="fullstack" value="fullstack" />
+        <label for="frontend">Fullstack</label>
+        <br />
+        <input type="checkbox" name="backend" value="backend" />
+        <label for="frontend">Backend</label>
+      </label>
+      <br />
+      <br />
+      <span>Sos mayor de edad?</span>
+      <br />
+      <input type="radio" name="mayoria-edad" value="true" />
+      <label for="mayoria-edad">Si</label>
+      <br />
+      <input type="radio" name="mayoria-edad" value="false" />
+      <label for="mayoria-edad">No</label>
+      <br />
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
